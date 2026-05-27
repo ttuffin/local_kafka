@@ -1,0 +1,4 @@
+:443 {
+	tls /etc/caddy/certs/caddy.crt /etc/caddy/certs/caddy.key
+	reverse_proxy kafka-ui:8080
+}
